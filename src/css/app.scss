@@ -1,0 +1,56 @@
+// app global css in SCSS form
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 1rem 0;
+}
+
+
+.q-page{
+    padding: 2rem;
+}
+
+.q-list{
+    background-color: $primary;
+    border-radius: 5px;
+    margin-bottom: 1rem ;
+    color: white!important;
+}
+
+.item-title{
+    font-weight: bolder;
+}
+
+body{
+    font-size: larger;
+}
+
+// .q-textarea .q-field__native{
+//     line-height: 3rem !important;
+// }
+
+.notebook-title {
+    height: 100%;
+    overflow-y: auto !important;
+    .q-field__native{
+        line-height: 3rem !important;
+    }
+}
+
+.notebook-body {
+    font-size: larger;
+    padding: 0.5rem;
+    height: 100%;
+    overflow-y: auto;
+    .q-field__native{
+        line-height: 1.7rem !important;
+    }
+}
+
+.q-separator{
+    background-color: $accent!important;
+}
+
+.q-toggle__inner--falsy{
+   color: white!important;
+}

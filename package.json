@@ -1,0 +1,62 @@
+{
+  "name": "notehub",
+  "version": "0.0.1",
+  "description": "note taking app",
+  "productName": "noteHub",
+  "author": "Royr9 <royramati99@gmail.com>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^6.0.2",
+    "@capacitor-community/contacts": "^6.1.1",
+    "@capacitor-community/photoviewer": "^4.0.1",
+    "@capacitor/camera": "^6.1.0",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/preferences": "^6.0.2",
+    "@capacitor/toast": "^6.0.2",
+    "@ionic-tools/emoji-picker": "^1.4.0",
+    "@ionic/pwa-elements": "^3.3.0",
+    "@quasar/extras": "^1.16.4",
+    "@quasar/quasar-ui-qiconpicker": "^2.0.7",
+    "color": "^4.2.3",
+    "date-fns": "^4.1.0",
+    "emoji-mart-vue-fast": "^15.0.3",
+    "ionicons": "^7.4.0",
+    "quasar": "^2.16.0",
+    "react-native": "^0.76.1",
+    "tinycolor2": "^1.6.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@quasar/app-vite": "^2.0.0-beta.12",
+    "@types/color": "^3.0.6",
+    "@types/node": "^20.5.9",
+    "@types/tinycolor2": "^1.4.6",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "jeep-photoviewer": "^1.2.3",
+    "prettier": "^3.0.3",
+    "typescript": "^5.6.3",
+    "vite-plugin-checker": "^0.8.0",
+    "vue-tsc": "^2.0.29"
+  },
+  "engines": {
+    "node": "^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
