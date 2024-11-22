@@ -1,5 +1,5 @@
-# Quasar App (noteHub)
-Note taking, tracking **mobile** only app
+# Quasar capacitor App (noteHub)
+Note taking, tracking **mobile** app, intended to work on android only using capacitor
 Create notes, custom categories folders and orgenaize all of your notes!
 
 ## Install the dependencies
